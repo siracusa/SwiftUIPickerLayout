@@ -13,5 +13,6 @@ struct SwiftUIPickerLayoutApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
     }
 }
